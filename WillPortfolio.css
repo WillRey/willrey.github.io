@@ -1,0 +1,112 @@
+#headerpic {
+  height: 13cm;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  background-position: center;
+}
+#header2, #header1 {
+  font-family: 'Rubik';
+  font-size: 40px;
+  color: #1d1f1d;
+  padding-bottom: 50px;
+}
+#header1 {
+  color: #ebebeb;
+}
+
+
+#aboutme {
+  padding-top: 75px;
+  padding-left: 15px;
+  text-align: left;
+  padding-right: 650px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 24px;
+}
+#Hello {
+  font-size: 28px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 800;
+}
+#Baxter {
+  float: right;
+  padding-right: 50px;
+  border-radius: 50px 50px 50px 50px;
+}
+#bananagrams {
+  float: left;
+  padding-right: 250px;
+}
+#form {
+  float: right;
+}
+body, html {
+  height: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.bg-img {
+  background-image: url(../Atom/formimage.jpg);
+
+  /* control height of img */
+  min-height: 450px;
+
+  /* center and scale img */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* add style to container */
+.container {
+  position: absolute;
+  right: 0;
+  margin: 20px;
+  max-width: 300px;
+  padding: 16px;
+
+}
+
+/* input fields */
+input[type=text], input[type=email] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=email]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* style for submit btn */
+.btn {
+  background-color: #4caf50;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+#submitbutton {
+  padding-top: 5px;
+}
+#formheader, #formname, #formemail {
+  color: white;
+}
+#formheader {
+  font-family: 'Rubik';
+}
