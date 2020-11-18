@@ -52,7 +52,7 @@ body, html {
 }
 
 .bg-img {
-  background-image: url(../Atom/formimage.jpg);
+  background-image: url(formimage.jpg);
 
   /* control height of img */
   min-height: 450px;
