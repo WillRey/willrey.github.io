@@ -56,13 +56,12 @@ body, html {
 
   /* control height of img */
   min-height: 450px;
-  min-width: 900px;
+  min-width: 100%;
 
   /* center and scale img */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  width: 100%;
 }
 
 /* add style to container */
