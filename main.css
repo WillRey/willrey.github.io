@@ -42,7 +42,6 @@
 }
 #form {
   float: right;
-  padding-right: 100px;
 }
 body, html {
   height: 100%;
@@ -57,6 +56,7 @@ body, html {
 
   /* control height of img */
   min-height: 450px;
+  min-width: 900px;
 
   /* center and scale img */
   background-position: center;
