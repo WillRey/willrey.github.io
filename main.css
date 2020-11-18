@@ -42,6 +42,7 @@
 }
 #form {
   float: right;
+  padding-right: 10px;
 }
 body, html {
   height: 100%;
