@@ -90,6 +90,7 @@ input[type=text]:focus, input[type=email]:focus {
 
 .btn:hover {
   opacity: 1;
+  transition: color 0.4s ease-out;
 }
 #submitbutton {
   padding-top: 5px;
