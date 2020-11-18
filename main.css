@@ -53,6 +53,13 @@ body, html {
 
 .bg-img {
   background-image: url(formimage.jpg);
+    /* control height of img */
+  min-height: 450px;
+
+  /* center and scale img */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 /* add style to container */
